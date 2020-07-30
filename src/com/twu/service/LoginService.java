@@ -26,6 +26,8 @@ public class LoginService {
             loginService.login2();
         } else if (option == 3){
             View.bye();
+            View.welcome();
+            index();
         }else {
             View.exception();
             View.welcome();
